@@ -5,7 +5,27 @@ At **cosinx**, we are committed to transforming the landscape of drug discovery 
 Our suite of products includes:
 
 ### **MindPlot**: [mindplot.ai](https://mindplot.ai)
-MindPlot is a powerful LLM-enhanced platform designed to help students, researchers, and professionals transform complex datasets into insightful, publication-ready plots and reports—without writing code. With just one click, users can clean data, run statistical analyses, generate multi-style plots, and produce structured reports. Unlike other LLM tools that require repeated, slow interactions for each adjustment, MindPlot features a unique multi-agent system that enables real-time customization of plot styles and parameters without reprocessing through the LLM. This design ensures fast, intuitive, and flexible figure refinement in a conversational interface. MindPlot empowers users to focus on scientific thinking and insight, rather than the technical burdens of data processing and visualization.
+MindPlot is a powerful LLM-enhanced platform designed to help students, researchers, and professionals transform complex datasets into insightful, publication-ready plots and reports—without writing code. With just one click, users can clean data, run statistical analyses, generate multi-style plots, and produce structured reports. 
+
+**Key Features:**
+
+- **Auto Data Cleaning:** Automatically handles missing values and outliers, eliminating tedious preprocessing steps.
+- **Tweak on-the-fly:** Instantly adjust fonts, colors, scales, and other visual elements without regenerating the entire plot—enabling rapid iteration in real-time.
+- **Feed Anything:** Accepts diverse input formats including images, Excel files, CSV, and more, making data ingestion seamless.
+- **Flexible Export:** Dual-stack export supporting both bitmap formats (PNG/JPG) for presentations and vector formats (SVG/PDF) for publications.
+- **Vibe Analysis:** Continuously senses user preferences and contextual "vibes" to enable "say it, see it" iterative refinement—adjusting plots based on implicit feedback and conversation flow.
+- **Multi-Model Parallel (4×) Agent Engine:** Each request triggers four parallel model/reasoning paths that simultaneously generate multiple style candidates. Users can compare options side-by-side and adopt with one click. The system records both explicit and implicit preferences, generating high-quality preference data for subsequent DPO/RLHF training and agent policy learning.
+
+Unlike other LLM tools that require repeated, slow interactions for each adjustment, MindPlot's unique multi-agent architecture ensures fast, intuitive, and flexible figure refinement in a conversational interface. MindPlot empowers users to focus on scientific thinking and insight, rather than the technical burdens of data processing and visualization.
+
+### **MindPub**: [mindpub.ai](https://mindpub.ai)
+MindPub is an advanced AI-powered platform for academic research and scientific writing. Leveraging state-of-the-art LLMs, MindPub transforms how researchers discover, analyze, and create scholarly content. The platform combines three powerful capabilities:
+
+- **Deep Literature Search:** Go beyond simple keyword matching with AI-driven semantic search that understands research concepts, identifies relevant papers across disciplines, and uncovers hidden connections in scientific literature.
+- **Intelligent Research Analysis:** Automatically extract key insights, methodologies, and findings from multiple papers. Our AI agents synthesize information across sources, identify research gaps, and generate comprehensive literature reviews.
+- **AI-Assisted Writing:** From drafting to refinement, MindPub helps researchers write high-quality academic papers. The platform assists with structure, argumentation, citation management, and ensures adherence to academic standards—while maintaining the researcher's unique voice and perspective.
+
+MindPub accelerates the entire research workflow, enabling scientists and scholars to spend less time on tedious literature review and more time on groundbreaking discoveries.
 
 ### **MindGene**: [mindgene.ai](https://mindgene.ai)
 We are developing a suite of phenotype-driven AI models specialized for compounds, genes, proteins, RNAs, and cells. Our models are designed to predict bindings, targets, toxicity, side effects, potential functions, and molecular mechanisms of these biological molecules. Current AI models focus on predicting molecular structures and interactions, while neglecting the phenotypic outcomes of these interactions and the underlying molecular mechanisms. Our models bridge this gap by predicting the phenotypic outcomes of molecular interactions, enabling applications such as:
@@ -23,5 +43,21 @@ A comprehensive multi-modal LLM system for modeling entire cells, enabling pheno
 - **Cell-level modeling:** Predicting cell phenotypes and responses to treatments, including processes like cell cycle, division, differentiation, death, senescence, migration, and cell-cell interactions.
 - **Tissue-level modeling:** Predicting tissue health status and behaviors in response to treatments, covering processes like tissue regeneration, repair, damage, remodeling, aging, and diseases.  
 
+### **MindAge**: [mindage.xyz](https://mindage.xyz)
+MindAge is an AI-powered personalized health and longevity platform that assesses your biological aging status and provides actionable recommendations to optimize healthspan. Available as both a web platform and mobile app, MindAge makes advanced aging assessment accessible anywhere. The mobile app features an innovative front-camera-based age prediction system, allowing users to instantly estimate their biological age through facial analysis. By integrating multi-omics data, lifestyle factors, clinical biomarkers, and computer vision technology, MindAge delivers:
+
+- **Biological Age Assessment:** Advanced AI algorithms analyze multiple aging indicators to determine your true biological age versus chronological age, identifying accelerated or decelerated aging patterns.
+- **Personalized Health Insights:** Comprehensive analysis of your aging profile across different organ systems, revealing specific areas of concern and strength.
+- **Targeted Recommendations:** Evidence-based, personalized interventions including dietary adjustments, exercise regimens, supplement suggestions, and lifestyle modifications tailored to your unique aging trajectory.
+- **Continuous Monitoring:** Track your progress over time, visualize improvements in biological age markers, and adjust interventions based on real-time feedback.
+- **Predictive Health Analytics:** AI-driven predictions of future health risks and age-related conditions, enabling proactive preventive measures.
+
+MindAge empowers individuals to take control of their aging process, bridging the gap between cutting-edge longevity science and everyday health decisions. By democratizing access to personalized anti-aging strategies, MindAge helps users optimize their healthspan and pursue longer, healthier lives.
+
 Together, these products harness the power of LLMs and AI to drive breakthroughs in life science research, accelerating drug discovery, and advancing efforts to cure diseases and extend healthy lifespans.
 
+---
+
+**Beijing COSINX Technology Co., Ltd.**
+
+© 2025 Beijing COSINX Technology Co., Ltd. All rights reserved.
